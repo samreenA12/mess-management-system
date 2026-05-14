@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<title>GEASS</title>
+
+<style>
+body { background:black; color:red; font-family:Segoe UI; }
+.menu { background:#111; padding:15px; }
+.menu a { color:red; margin:20px; text-decoration:none; }
+.grid { width:900px; font-size:20px; }
+</style>
+
+</head>
+
+<body>
+<form runat="server">
+
+<div class="menu">
+    <a href="Login.aspx">Login</a>
+    <a href="Menu.aspx">Menu</a>
+</div>
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+
+</form>
+</body>
+</html>
